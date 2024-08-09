@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 184.66 167.92">
+  <defs>
+    <linearGradient id="linear-gradient" x1="85.74" y1="-117.22" x2="86.74" y2="-118.22" gradientTransform="matrix(184.66, 0, 0, -167.92, -15832.3, -19683.83)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c88cd2"/>
+      <stop offset="0.2" stop-color="#8c4696"/>
+      <stop offset="0.4" stop-color="#c88cd2"/>
+      <stop offset="0.6" stop-color="#8c4696"/>
+      <stop offset="0.8" stop-color="#c88cd2"/>
+      <stop offset="1" stop-color="#8c4696"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="85.82" y1="-116.88" x2="86.12" y2="-117.88" gradientTransform="matrix(158.15, 0, 0, -141.68, -13503.56, -16547.15)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ecf8f3"/>
+      <stop offset="1" stop-color="#b0bcb7"/>
+    </linearGradient>
+  </defs>
+  <g id="group_78" data-name="group 78">
+    <path d="M180,100l-30,52q-9.22,16-27.71,16h-60q-18.48,0-27.71-16l-30-52q-9.24-16,0-32l30-52Q43.86,0,62.33,0h60Q140.81,0,150,16l30,52Q189.28,84,180,100Z" fill="url(#linear-gradient)"/>
+    <path d="M179.91,99.88l-30,52q-9.19,15.93-27.58,15.92h-60q-18.37,0-27.57-15.92l-30-52Q-4.44,84,4.76,68l30-52Q43.94.16,62.33.16h60q18.39,0,27.58,15.92l30,52Q189.09,84,179.91,99.88Z" fill="none"/>
+    <path d="M169,93.56l-30,52a18,18,0,0,1-16.63,9.6h-60a18,18,0,0,1-16.63-9.6l-30-52a18,18,0,0,1,0-19.2l30-52a18,18,0,0,1,16.63-9.6h60A18,18,0,0,1,139,22.4l30,52A18,18,0,0,1,169,93.56Z" fill="#050505"/>
+    <path d="M168.68,93.4l-30,52a17.69,17.69,0,0,1-16.35,9.44h-60A17.69,17.69,0,0,1,46,145.36l-30-52a17.73,17.73,0,0,1,0-18.88l30-52a17.71,17.71,0,0,1,16.35-9.44h60a17.71,17.71,0,0,1,16.35,9.44l30,52A17.69,17.69,0,0,1,168.68,93.4Z" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

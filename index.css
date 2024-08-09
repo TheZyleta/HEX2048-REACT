@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'KGRed';
+  src: url('Fonts/KGRedHands.woff2') format('woff2');
+}
+body, html {
+
+  font-family: 'KGRed';
+  height: 100%;
+  margin: 0;
+}
+
+
+  .container {
+    position: relative; /* Establish positioning context */
+    width: 100%; /* Adjust as needed */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden
+  
+  
+  }
+.buttonCont {
+  display: grid;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Radius {
+  width:50%;
+  position: absolute;
+  /* Position the PickRadius div relative to its closest positioned ancestor */
+  top: 55%; /* Position it vertically at 50% from the top */
+  left: 50%; /* Position it horizontally at 50% from the left */
+  transform: translate(-50%, -50%); /* Center it exactly */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  
+ 
+  
+  
+ 
+  }
+  .Start {
+    position: absolute;
+    display: flex; /* Use flexbox to arrange children in a row */
+    gap: 3%; /* Adds space between the buttons */
+    left:50%;
+    top: 75%;
+    height: 10%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center; 
+   
+    
+   
+  }
+
+  input[type="button"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height:3rem;
+    
+    background: url('images/ButtStart.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    color: white;
+    
+  }
+
+ 
+.bgPatternMenu {
+  position: relative;
+  height: 100vh; 
+  
+  background-image: url('images/BackG2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+}
+.bgPatternGame {
+  position: relative;
+  height: 100%; /* Adjust based on parent container */
+  min-height: 100vh; /* Ensures full-screen on larger screens */
+  background-image: url('images/BackG2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+ input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.25);
+  background-position: center;
+  background-size: cover;
+  border-radius: 2rem;
+  
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 60px; /* Adjust the width of the thumb */
+  height: 60px; /* Adjust the height of the thumb */
+  background-color: rgba(255, 255, 255, 0.65); /* Example background color */
+  border: none; /* Remove default border */
+  cursor: pointer;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.logo {
+  height: 40%; /* Set the initial width of the logo */
+  aspect-ratio: 1/1; /* Maintain aspect ratio */
+  position: absolute;
+  
+  top: 20%; /* Position it vertically at 50% from the top */
+  left:50%;
+  /* Position it horizontally at 50% from the left */
+  
+  background-image: url('images/logo.png');
+  
+  background-position: center;
+  background-size: cover;
+  animation: pulse 2s infinite alternate; 
+}
+
+@keyframes pulse {
+  from {
+    transform: translate(-50%,-50%) scale(1); /* Start with the original size */
+  }
+  to {
+    transform: translate(-50%,-50%) scale(1.2); /* Grow to 120% of the original size */
+  }
+}
+
+@keyframes woOow {
+  from {
+    transform: translate(-50%,-50%) scale(1); /* Start with the original size */
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.2); /* Grow to 120% of the original size */
+  }
+  to {
+    transform: translate(-50%,-50%) scale(1); /* Start with the original size */
+  }
+}
+
+
+
+.animate {
+ animation: woOow 0.2s;
+} 
+
+
+.fadeInOut-enter {
+  opacity: 0;
+  
+  transition: opacity 0.5s;
+}
+
+.fadeInOut-enter-active {
+  opacity: 1;
+  
+}
+
+.fadeInOut-leave {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.fadeInOut-leave-active {
+  opacity: 0;
+}
+.button-container {
+  position: absolute;
+  display: flex; /* Use flexbox to arrange children in a row */
+  gap: 3%; /* Adds space between the buttons */
+  left:50%;
+  top: 65%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  justify-content: center; /* Center the buttons horizontally */
+}
+button {
+  font-family: 'KGRed';
+  font-weight: bold;
+  width: 10%;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: rgba(33,1,50,255);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.25)
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.overlay p {
+  color: 'white';
+  font-size: 100px;
+  font-weight: 'bold';
+  pointer-events: 'none';
+  animation: 'woOow 1s';
+}
+
+.ex {
+  position: absolute;
+  top: 0;
+  right: 0;
+ 
+   /* Example text color */
+  padding: 10px; /* Example padding */
+}
+
+.exx{
+  width:100%
+}

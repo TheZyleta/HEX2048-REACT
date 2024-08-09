@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1eeac20.css",
+    "main.js": "/static/js/main.c3a3a324.js",
+    "static/media/logo.png": "/static/media/logo.83895083c6827b827f29.png",
+    "static/media/ButtStart.png": "/static/media/ButtStart.86651fbc85b1d9602521.png",
+    "static/media/KGRedHands.woff2": "/static/media/KGRedHands.ccc1ae4d28f820c3dd4c.woff2",
+    "static/media/BackG2.jpg": "/static/media/BackG2.203858eab319f03a0083.jpg",
+    "index.html": "/index.html",
+    "main.c1eeac20.css.map": "/static/css/main.c1eeac20.css.map",
+    "main.c3a3a324.js.map": "/static/js/main.c3a3a324.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1eeac20.css",
+    "static/js/main.c3a3a324.js"
+  ]
+}
